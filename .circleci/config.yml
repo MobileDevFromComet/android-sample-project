@@ -26,7 +26,7 @@ jobs:
       - checkout
       
       - run:
-          name: Give permission for gradlew
+          name: Chmod for gradlew
           command: chmod +x ./gradlew
 
       # The next step will run the unit tests
